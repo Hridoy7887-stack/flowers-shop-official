@@ -145,7 +145,7 @@
 .delivery-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 1540px;
+    width: 1440px;
     background-color: rgba(39, 39, 39, 0.05);
     border-radius: 2px;
     border: none;
@@ -160,13 +160,13 @@
      
 .delivery-img-2{
     width: 316px;
-    margin: 86px 100px 87px 100px;
+    margin: 86px 100px 87px 0;
     
 }
      
 .delivery-img-3{
     width: 202px;
-    margin: 86px 175px 87px 100px;
+    margin: 86px 175px 87px 0;
    
 }
 .delivery-image{
@@ -244,6 +244,41 @@
     width: 318px;
     height: 420px;
      margin: 100px 429px 100px 0;
+}
+
+/* instagram-section styles*/
+
+.instagram-container{
+width: 600px;
+row-gap: 24px;
+margin: 128px 663px 48px 663px;
+}
+.instagram-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #272727;
+    margin: 0 150px;
+}
+.instagram-description{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+    line-height: 30px;
+}
+.middle-2{
+    position: relative;
+    left: 100px;
+}
+.instagram-img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    width: 1440px;
+    margin: 50px auto;
+}
+.instgram-img{
+    width: 342px;
+    height: 396px;
 }
 
 
